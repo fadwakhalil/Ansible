@@ -1,5 +1,5 @@
 ---
-- hosts: clients local
+- hosts: clients
   tasks:
   - name: Install Nginx
     apt: pkg=nginx state=installed update_cache=true
